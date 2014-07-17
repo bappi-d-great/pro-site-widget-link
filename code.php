@@ -1,3 +1,4 @@
+<?php
 add_action( 'wp_footer', 'make_clickable_image_in_pro_badge' );
 function make_clickable_image_in_pro_badge() {
     $link = "YOUR_DESIRED_LINK";
